@@ -1,0 +1,7 @@
+#whether no is even or odd
+o=int(input("Enter any number:"))
+r= o%2
+if (r == 0) :
+    print(o,"is an Even number")
+else :
+    print(o,"is not an Even number")
