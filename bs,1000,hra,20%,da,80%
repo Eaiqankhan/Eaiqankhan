@@ -1,0 +1,9 @@
+#salary of an employee
+bs=10000
+print("If basic salary is",bs)
+DA=(80/100)*bs
+HRA=(20/100)*bs
+print("DA is 80%")
+print("HRA is 20% ,then")
+TS=bs+DA+HRA
+print("Total salary is:",TS)
