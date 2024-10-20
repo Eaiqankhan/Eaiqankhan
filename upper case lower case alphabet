@@ -1,0 +1,8 @@
+#  alphabet is in uppercase or lowercase
+c=input("Enter any character: ")
+if (c >='a' and c <='z') :
+    print(c,"is written in lowercase")
+elif(c >='A'and c <='Z'):
+    print(c,"is written in uppercase")
+else:
+    print(c,"is not a alphabet")
