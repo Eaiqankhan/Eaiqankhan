@@ -1,0 +1,10 @@
+# which type of triangle is
+S1=int(input("Enter first side:"))
+S2=int(input("Enter second side:"))
+S3=int(input("Enter third side:"))
+if (S1 == S2 and S2 == S3) :
+    print("The given triangle is an equilateral triangle.")
+elif (S1 == S2 or S1 == S3 or S2 == S3) :
+    print("The given triangle is an isosceles trianlge.")
+else :
+    print("The given triangle is a scalene triangle.")
