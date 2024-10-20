@@ -1,0 +1,7 @@
+#character  is a alphabet or not
+m=input("Enter any Character:")
+
+if (m >= "a" and m <="z") :
+    print(m,"is an alphabet")
+else :
+    print(m,"is not an alphabet")
