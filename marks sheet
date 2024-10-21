@@ -1,10 +1,10 @@
  #Marksheet
 m_math=int(input("Enter marks in Maths:"))
-m_sci=int(input("Enter marks in Science:"))
-m_sst=int(input("Enter marks in Social science:"))
-m_eng=int(input("Enter marks in English:"))
-m_urd=int(input("Enter marks in Urdu:"))
-total=m_math+m_sci+m_sst+m_eng+m_urd
+m_bio=int(input("Enter marks in Biology:"))
+m_chem=int(input("Enter marks in Chemistry:"))
+m_phy=int(input("Enter marks in Physics"))
+m_comp=int(input("Enter marks in Computer science:"))
+total=m_math+m_bio+m_chem+m_phy+m_comp
 print(" total marks:", total, "out of 500")
 #find percentage
 p=(total/500)*100
