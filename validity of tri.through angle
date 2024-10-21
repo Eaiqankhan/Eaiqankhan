@@ -3,7 +3,7 @@ A=int(input("enter the angle"))
 B=int(input("enter the angle"))
 C=int(input("enter the angle"))
 S=A+B+C 
-if S==180:
+if S==180 and A > 0 and B > 0 and C > 0 :
     print("the triangle is valid")
 else:
     print("the triangle is invalid")
